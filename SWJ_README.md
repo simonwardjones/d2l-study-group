@@ -19,3 +19,12 @@ git checkout master
 git rebase upstream/master
 git push origin master --force
 ```
+
+
+### Notes
+
+ - I am using conda for this project (see bash file for setup)
+    ```bash
+    conda activate d2l
+    conda deactivate
+    ```
