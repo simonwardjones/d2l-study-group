@@ -7,6 +7,7 @@
  - 📕 Book - https://d2l.ai/chapter_preface/index.html
  - ♦️ Github (source) - https://github.com/dair-ai/d2l-study-group
  - 🎬 Youtube - https://www.youtube.com/channel/UCyna_OxOWL7IEuOwb7WhmxQ?view_as=subscriber
+ - 📜 Submission form - https://docs.google.com/forms/d/e/1FAIpQLScw-ggvKUpc36KX-9yUV3IPqKuHilcslbXmyyrg38nTEmNsQA/viewform
 
 ### Updating my branch
 
