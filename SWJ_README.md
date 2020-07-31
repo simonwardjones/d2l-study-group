@@ -7,3 +7,10 @@
  - 📕 Book - https://d2l.ai/chapter_preface/index.html
  - ♦️ Github (source) - https://github.com/dair-ai/d2l-study-group
 
+### Updating my branch
+
+```bash
+git fetch upstream
+git checkout master
+git rebase upstream/master
+```
