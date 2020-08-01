@@ -15,22 +15,21 @@
 
 \title{\Large{\textbf{Chapter 1}}}
 \date{July 31, 2020}
-\author{Simon Ward-Jones}
+\author{Simon Ward-Jones\\simonwardjones16@gmail.com}
 
 \maketitle
 % \tableofcontents
-\href{https://d2l.ai/chapter_introduction/index.html}{Jump to chapter}
+\href{https://d2l.ai/chapter_introduction/index.html}{Link to chapter}
 
 \section{Motivating example}
 \begin{itemize}
     \item How to identify ``Hey Siri'' without machine learning?
-    \item The (supervised) ML process is broadly as follows:
-          \subitem Pick a model and initialise parameters then repeat:
-          \begin{itemize}
+    \item The (supervised) ML process is broadly as follows -
+          Pick a model and initialise parameters then repeat:
+          \begin{enumerate}
               \item Measure how good the model is against data
               \item Change params (to ideally improve the error)
-          \end{itemize}
-    \item In ML we don't design the solution explicitly
+          \end{enumerate}
     \item Deep models are deep in precisely the sense that they learn many layers of computation
 \end{itemize}
 
@@ -97,16 +96,23 @@
     \item \textit{Which parts of code that you are currently writing could be “learned”, i.e.,
               improved by learning and automatically determining design choices that are made in your code? Does your code include heuristic design choices?}
 
-          A good starting place would be the syntax; a large set of labelled data, e.g. correct or incorrect syntax could be collected
-          and used to train a classifier.
+          The syntax and potentially styling could be learned. First you would need a large set of labelled data (e.g. samples with correct or incorrect syntax could be collected). A classification
+          algorithm could be used to predict whether there was a syntax error. The business logic of algorithms is much harder to capture
+          as part of a model as it is more general and varies more between code samples. For this we would need GAI.
     \item \textit{Which problems that you encounter have many examples for how to solve them, yet no specific way to automate them? These may be prime candidates for using deep learning.}
 
-          answer
+          \begin{itemize}
+              \item Winning a sporting match
+              \item Responding to emails
+              \item Deleting blurry photos or shots with the lens cap on
+          \end{itemize}
+
     \item \textit{Viewing the development of artificial intelligence as a new industrial revolution, what is the relationship between algorithms and data? Is it similar to steam engines and coal (what is the fundamental difference)?}
 
-          answer
+          The steam engine was powered by coal much as modern ML algorithms are powered by data.
     \item \textit{Where else can you apply the end-to-end training approach? Physics? Engineering? Econometrics?}
-          answer
+          
+          I'll be honest - I am not sure what it is refering to as end-to-end training
 \end{enumerate}
 
 
