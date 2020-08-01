@@ -1,6 +1,14 @@
 \documentclass[12pt,notitlepage]{article}
 
+% for margins
+\usepackage[a4paper,left=3cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+% for citations
 \usepackage{apacite}
+% for hyperlinks
+\usepackage{hyperref}
+% for maths symbols like the real numbers
+\usepackage{amssymb}
+
 
 \begin{document}
 \bibliographystyle{apacite}
@@ -11,12 +19,96 @@
 
 \maketitle
 % \tableofcontents
+\href{https://d2l.ai/chapter_introduction/index.html}{Jump to chapter}
 
-\section{Section 1}
-Place older for summary section 1
+\section{Motivating example}
+\begin{itemize}
+    \item How to identify ``Hey Siri'' without machine learning?
+    \item The (supervised) ML process is broadly as follows:
+          \subitem Pick a model and initialise parameters then repeat:
+          \begin{itemize}
+              \item Measure how good the model is against data
+              \item Change params (to ideally improve the error)
+          \end{itemize}
+    \item In ML we don't design the solution explicitly
+    \item Deep models are deep in precisely the sense that they learn many layers of computation
+\end{itemize}
 
-\section{Section 2}
-Place older for summary section 2
+\section{The Key Components: Data, Models, and Algorithms}
+\begin{itemize}
+    \item \textbf{Data} - what we can learn from
+          \begin{itemize}
+              \item examples, targets and features
+              \item dimensionality - fixed length Vs variable-length
+              \item garbage in, garbage out
+          \end{itemize}
+    \item \textbf{Model} - how to transform the data.
+    \item \textbf{Loss function} - quantifies the badness of our model.
+          \begin{itemize}
+              \item minimize the loss to give the best parameters
+              \item training and testing error and overfitting
+              \item $\mathbf{L}_1$, $\mathbf{L}_2$ and cross entropy
+          \end{itemize}
+    \item \textbf{Algorithm} - how to adjust the model’s parameters to minimize the loss (gradient descent)
+\end{itemize}
+
+\section{Models}
+
+\begin{itemize}
+    \item \textbf{Supervised}
+          \begin{itemize}
+              \item \textbf{regression} - real number target e.g. predicting house prices
+              \item \textbf{classification} - discrete number of targets e.g. predicting heart attacks $y \in \{0,1\}$
+              \item find $f_{\theta}$ such that $f_{\theta}(\textbf{x}_i) = \hat{y}_i\sim y_i$ given data $\{\textbf{x}_i,y_i\}^n_{i=1} $
+              \item for classification we are (often) interested in $P(y|\textbf{x})$
+              \item \textbf{tagging} - extending classification to multi-label classification (dog + cat, AWS, medical journal tagging)
+              \item \textbf{search and ranking} - ordered relevant subset retrieval
+              \item \textbf{recommender systems} - personalised recommendation subset retrieval
+              \item \textbf{sequence learning} - using sequential nature of input features
+                    \begin{itemize}
+                        \item tagging and parsing - annotating a text sequence with attributes (e.g. named entities)
+                        \item automatic speech recognition - from audio waves to text
+                        \item text to speech - from text to audio waves
+                        \item machine translation
+                    \end{itemize}
+          \end{itemize}
+    \item \textbf{Unsupervised}
+          \begin{itemize}
+              \item \textbf{clustering} - grouping "similar" samples
+              \item \textbf{subspace estimation} - dimensionality reduction
+              \item \textbf{representation learning} - representing in $\mathbb{R}^n$
+              \item \textbf{probabilistic graphical models} - defining causality
+              \item \textbf{generative adversarial networks (GANs)} - synthesize data
+          \end{itemize}
+    \item \textbf{Interacting with an Environment}
+          \begin{itemize}
+              \item offline learning doesn't interact with environment
+              \item intelligent agents are trained to make actions
+              \item \textbf{Reinforcement learning} - e.g. self driving car. The agent interacts
+                    with the environment via actions and observations over a period of time steps. The
+                    agent receives a reward after each action (defining this reward is a problem
+                    itself). The policy (i.e. what action to take in a certain scenario) is learnt
+                    balancing exploration and exploitation.
+          \end{itemize}
+\end{itemize}
+
+\section{Exercises}
+\begin{enumerate}
+    \item \textit{Which parts of code that you are currently writing could be “learned”, i.e.,
+              improved by learning and automatically determining design choices that are made in your code? Does your code include heuristic design choices?}
+
+          A good starting place would be the syntax; a large set of labelled data, e.g. correct or incorrect syntax could be collected
+          and used to train a classifier.
+    \item \textit{Which problems that you encounter have many examples for how to solve them, yet no specific way to automate them? These may be prime candidates for using deep learning.}
+
+          answer
+    \item \textit{Viewing the development of artificial intelligence as a new industrial revolution, what is the relationship between algorithms and data? Is it similar to steam engines and coal (what is the fundamental difference)?}
+
+          answer
+    \item \textit{Where else can you apply the end-to-end training approach? Physics? Engineering? Econometrics?}
+          answer
+\end{enumerate}
+
 
 \vfill
 \bibliography{../References}
