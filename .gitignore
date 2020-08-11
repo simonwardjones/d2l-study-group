@@ -17,3 +17,4 @@
 *.fdb_latexmk
 d2l-en/**
 .DS_Store
+data/**
