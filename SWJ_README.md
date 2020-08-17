@@ -16,8 +16,7 @@ Not great practise to change the history of the remote but I expect to be the on
 ```bash
 git fetch upstream
 git checkout master
-git rebase upstream/master
-git push origin master --force
+git merge upstream/master
 ```
 
 
