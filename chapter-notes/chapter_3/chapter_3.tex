@@ -1,0 +1,36 @@
+\documentclass[12pt,notitlepage]{article}
+
+% for margins
+\usepackage[a4paper,left=3cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+% for citations
+\usepackage{apacite}
+% for hyperlinks
+\usepackage{hyperref}
+% for maths symbols like the real numbers
+\usepackage{amssymb}
+
+
+\begin{document}
+\bibliographystyle{apacite}
+
+\title{\Large{\textbf{Chapter 3}}}
+\date{August 24, 2020}
+\author{Simon Ward-Jones\\simonwardjones16@gmail.com}
+
+\maketitle
+% \tableofcontents
+\href{https://d2l.ai/chapter_linear-networks/linear-regression.html}{Link to chapter}
+
+\section{Linear Regression}
+\begin{itemize}
+    \item Linear model
+    \item Mini batch stochastic gradient descent
+    \item Vectorisation of algorithms leeds to massive efficiency gains
+    \item Minimizing the mean squared error is equivalent to maximum likelihood estimation of a linear model under the assumption of additive Gaussian noise
+\end{itemize}
+
+\vfill
+\bibliography{../References}
+\nocite{zhang2020dive}
+\end{document}
+
