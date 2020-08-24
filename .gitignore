@@ -18,3 +18,5 @@
 d2l-en/**
 .DS_Store
 data/**
+
+.ipynb_checkpoints/
