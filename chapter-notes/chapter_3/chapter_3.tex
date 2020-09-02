@@ -29,6 +29,40 @@
     \item Minimizing the mean squared error is equivalent to maximum likelihood estimation of a linear model under the assumption of additive Gaussian noise
 \end{itemize}
 
+\section{Linear Regression Implementation from Scratch}
+\begin{itemize}
+    \item Iterating the dataset in batches
+    \item Defining the model and the loss
+    \item Initialising params
+    \item Finding the gradient of the loss w.r.t. the params
+    \item Defining the optimisation algorithm that updates the params with the gradients
+    \item Finally with using the above define the training routine looping through epochs
+    \item \begin{itemize}
+        \item getting mini batch
+        \item find loss
+        \item optimizer step
+        \item print progress
+    \end{itemize}
+\end{itemize}
+
+\section{Concise Implementation of Linear Regression}
+\begin{itemize}
+    \item Similar as above but use predefined dataset, model, loss and optimiser classes.
+\end{itemize}
+
+\section{Softmax Regression}
+\begin{itemize}
+    \item Softmax transforms logit to probability space
+    \item Log likelihood
+    \item Cross-entropy measures the difference between two probability distributions
+\end{itemize}
+
+\section{The Image Classification Dataset}
+\begin{itemize}
+    \item Fashion-MNIST is an apparel classification dataset consisting of images representing 10 categories
+    \item Rely on well-implemented data iterators that exploit high-performance computing to avoid slowing down your training loop.
+\end{itemize}
+
 \vfill
 \bibliography{../References}
 \nocite{zhang2020dive}
