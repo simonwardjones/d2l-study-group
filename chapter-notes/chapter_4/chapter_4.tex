@@ -1,0 +1,49 @@
+\documentclass[12pt,notitlepage]{article}
+
+% for margins
+\usepackage[a4paper,left=3cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+% for citations
+\usepackage{apacite}
+% for hyperlinks
+\usepackage{hyperref}
+% for maths symbols like the real numbers
+\usepackage{amssymb}
+
+
+\begin{document}
+\bibliographystyle{apacite}
+
+\title{\Large{\textbf{Chapter 4}}}
+\date{September 6, 2020}
+\author{Simon Ward-Jones\\simonwardjones16@gmail.com}
+
+\maketitle
+% \tableofcontents
+\href{https://d2l.ai/chapter_multilayer-perceptrons/index.html}{Link to chapter}
+
+\section{Multilayer Perceptrons}
+\begin{itemize}
+    \item Incorporating Hidden Layers to network architecture
+    \item Adding non linearity with activation functions
+\end{itemize}
+
+\section{Implementation of Multilayer Perceptrons from Scratch}
+Similar to logistic/linear regression implementation involving
+\begin{itemize}
+    \item Define the model (net) and initialise params
+    \item Define the loss
+    \item Define the optimizer (stepping in the direction of neg gradient)
+    \item Implement training loop (using efficient mini batch data loaders)
+\end{itemize}
+
+
+\section{Model Selection, Underfitting, and Overfitting}
+\begin{itemize}
+    \item here we go!
+\end{itemize}
+
+\vfill
+\bibliography{../References}
+\nocite{zhang2020dive}
+\end{document}
+
