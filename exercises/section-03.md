@@ -8,3 +8,6 @@ Please implement the backward function from scratch. This is an important part o
 - Hint: First, figure out what this `backward()` function does by checking the source code in the PyTorch documentation. Then, try to incorporate your implementation of it. Make sure to reference any material you use to help you implement this function.
 - Submit a link to your Google Colab using this [form](https://forms.gle/uNiauair61YCkBFHA). Make sure to include **2** for "Assignment #".
 - The deadline for this assignment is **September 19, 2020**. 
+
+
+My answer: https://colab.research.google.com/drive/1wLU1o3KldlYEYzMde8K4axQBn2dmTE80?authuser=1#scrollTo=p8EZwJe8WNvO
