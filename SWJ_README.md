@@ -13,10 +13,15 @@
 
 Not great practise to change the history of the remote but I expect to be the only one using this.
 
+On off use ` git remote add upstream git@github.com:dair-ai/d2l-study-group.git` to set upstream branch.
+
+Then:
+
 ```bash
 git fetch upstream
 git checkout master
 git merge upstream/master
+git push
 ```
 
 
