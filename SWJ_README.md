@@ -27,3 +27,4 @@ git merge upstream/master
     conda activate d2l
     conda deactivate
     ```
+ - Installed MacTex and added to path: `export PATH="/Library/TeX/texbin:$PATH"`
