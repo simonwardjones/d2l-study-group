@@ -14,14 +14,14 @@ Unlike other study groups, the format (tentative) will be as follows:
 - There will be **one final project** which will be done in groups. The groups have to present their work towards the end of the program. (More information coming soon!)
 
 ### Instructions
-- Make sure to join our [Slack group](https://join.slack.com/t/dairai/shared_invite/zt-dv2dwzj7-F9HT047jIGkunNKv88lQ~g) (channel: **#d2l-study-group**) for the latest schedule, updates and announcements.
+- Make sure to join our Slack group(channel: **#d2l-study-group**) for the latest schedule, updates and announcements. Feel free to reach out to me on [Twitter](https://twitter.com/omarsar0) for an invite to our Slack group.
 - You will be eligible to receive a **Certificate of Completion** if you complete more than 80% of the exercises. In addition, you must complete and present your final project to be eligible for the certificate. We won't use any kind of grading system and we will just mark the assignments as either complete or incomplete. We hope that all submissions of the exercises are true attempts to complete them. We will provide feedback on all submissions to help with completion when needed.
 - You are free to audit the sessions as well.
 
 ### Schedule and Registration
 
 To fully register for this program:
-- Ensure that you have joined our [Slack group](https://join.slack.com/t/dairai/shared_invite/zt-dv2dwzj7-F9HT047jIGkunNKv88lQ~g) for more updates on the program. You will also find a spreadsheet there to officially enroll in the program and signup to be considered for the Certificate of Completion.
+- Ensure that you have joined our Slack group for more updates on the program. You will also find a spreadsheet there to officially enroll in the program and signup to be considered for the Certificate of Completion.
 
 **All dates below are tentative and subject to change.**
 
@@ -30,22 +30,22 @@ To fully register for this program:
 | Session 1 - Introduction to Deep Learning| Find readings [here](https://github.com/dair-ai/d2l-study-group/blob/master/readings/section-01.md) | Complete the list [here](https://github.com/dair-ai/d2l-study-group/blob/master/exercises/section-01.md) | [Zoom (requires registration)](https://us02web.zoom.us/meeting/register/tZwtduyuqjsiHNdD0NxIB2A-rSRhaoEjL9Nn), [YouTube Live](https://www.youtube.com/watch?v=xS3_b0BsSes&feature=youtu.be) | August 1, 2020, 15:00 - 17:00 CEST | [PDF](https://github.com/dair-ai/d2l-study-group/blob/master/slides/Session%201%20-%20Introduction%20to%20Deep%20Learning%20-%20Dive%20into%20Deep%20Learning%20Study%20Group.pdf) | [YouTube](https://www.youtube.com/watch?v=xS3_b0BsSes) |
 | Session 2 - Preliminaries| Find readings [here](https://github.com/dair-ai/d2l-study-group/blob/master/readings/section-02.md) | NA| [Zoom](https://us02web.zoom.us/j/84658372189?pwd=am9lY3pHVHhCRGVuSnJDZmVDUHVvQT09) (Check Slack group for password), [YouTube Live](https://youtu.be/RyNM1PdgFUQ) | August 15, 2020, 15:00 - 17:00 CEST | [Preliminaries](https://colab.research.google.com/drive/1a_1pTRPToTXMuLDxzEbdsGTws_AXOY4U?usp=sharing), [Hacking Guide to Neural Networks - Draft](https://colab.research.google.com/drive/1m0lNJ9n8LUXHHU4pOLrZZjSMjoeRKCrN?usp=sharing) | [YouTube](https://youtu.be/RyNM1PdgFUQ) |
 | Session 3 - Linear Neural Networks| Find suggested readings [here](https://github.com/dair-ai/d2l-study-group/blob/master/readings/section-03.md) | [Assignment 2](https://github.com/dair-ai/d2l-study-group/blob/master/exercises/section-03.md) | [Zoom](https://us02web.zoom.us/j/81313374436?pwd=c3A5VkFQQVZ6UEFaQnNlTFgwWGoxZz09) (Check Slack group for password) | September 05, 2020, 15:00 - 17:00 CEST | [Slides](https://github.com/dair-ai/d2l-study-group/blob/master/slides/Session%203%20-%20Linear%20Neural%20Networks.pdf), [Notebook](https://colab.research.google.com/drive/1tqdWN073CUxk-Fikcg42ATnjYr3kxfCR?usp=sharing) | [YouTube](https://youtu.be/OFo85Zq3taU) |
-| Session 4 - Multilayer Perceptrons| TBA| TBA | TBA | September 12, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 5 - Deep Learning Computation| TBA| TBA | TBA | September 12, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 6 - Convolutional Neural Networks| TBA| TBA | TBA| September 19, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 7 - Modern Convolutional Neural Networks| TBA| TBA | TBA | September 26, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 8 - Recurrent Neural Networks| TBA| TBA | TBA | October 10, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 9 - Modern Recurrent Neural Networks| TBA| TBA | TBA | October 17, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 10 - Attention Mechanism| TBA| TBA | TBA | October 31, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 11 - Optimization Algorithms| TBA| TBA | TBA | November 14, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 12 - Computational Performance| TBA| TBA | TBA | November 28, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 13 - Computer Vision| TBA| TBA | TBA | December 12, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 14 (Part 1) - Natural Language Processing: Pretraining| TBA| TBA | TBA | December 19, 2020, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 14 (Part 2) - Project Announcement| TBA | TBA | TBA | December 19, 2020, 17:00 - 18:00 CEST | TBA | TBA |
-| Session 15 - Natural Language Processing: Applications| TBA| TBA | TBA | January 09, 2021, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 16 - Generative Adversarial Networks| TBA| TBA | TBA| January 23, 2021, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 17 - Recommender Systems| TBA| TBA | TBA| February 06, 2021, 15:00 - 17:00 CEST | TBA | TBA |
-| Session 18 - Final Projects Presentation | TBA| TBA | TBA| February 20, 2021, 15:00 - 17:00 CEST | TBA | TBA |
+| Session 4 - Multilayer Perceptrons| TBA| [Assignment 3](https://github.com/dair-ai/d2l-study-group/blob/master/exercises/section-04.md) | [Zoom (Check Slack group for password)](https://us02web.zoom.us/j/81516716541?pwd=aUpRaXdwM0IrTG1SYWlhTlFwa3JRQT09), [YouTube Live](https://youtu.be/ABWUlfMpDt8) | September 12, 2020, 15:00 - 17:00 CEST | [Notebook](https://colab.research.google.com/drive/1ybr2gkjePOIm4rNQDUL-jpGq4bplHr1N?usp=sharing), [Slides](https://github.com/dair-ai/d2l-study-group/blob/master/slides/Section%204%20-%20Multilayer%20perceptrons.pdf) | [YouTube](https://youtu.be/ABWUlfMpDt8) |
+| Session 5 - Deep Learning Computation| TBA | - | - | September 24, 2020, 15:00 - 17:00 CEST | [Notebook](https://colab.research.google.com/drive/15KjalW-DIHPyyqPx4YFuEkmXJkwFINjH?usp=sharing) | [YouTube](https://youtu.be/Sbo30zbquYs) |
+| Session 6 - Convolutional Neural Networks| -| TBA | [Zoom - check Slack channel for password](https://us02web.zoom.us/j/82395300378?pwd=QnpKcWJ0VFBpWFlPTTdpN25JSGpKZz09), [YouTube Live](https://youtu.be/9VU4QpHAD5U) | September 26, 2020, 15:00 - 17:00 CEST | TBA | [YouTube](https://youtu.be/9VU4QpHAD5U) |
+| Session 7 - Modern Convolutional Neural Networks| - | TBA | [Zoom (check Slack channel for password)](https://us02web.zoom.us/j/82201914115?pwd=SGJibjRUVEtUVlFyb2xTRU5qR3N5UT09), [YouTube Live](https://youtu.be/57PBRdG99aA) | October 3, 2020, 15:00 - 17:00 CEST | TBA | [YouTube](https://youtu.be/57PBRdG99aA) |
+| Session 8 - Recurrent Neural Networks| TBA| TBA | TBA | TBA| TBA | TBA |
+| Session 9 - Modern Recurrent Neural Networks| TBA| TBA | TBA | TBA | TBA | TBA |
+| Session 10 - Attention Mechanism| TBA| TBA | TBA | TBA| TBA | TBA |
+| Session 11 - Optimization Algorithms| TBA| TBA | TBA | TBA | TBA | TBA |
+| Session 12 - Computational Performance| TBA| TBA | TBA | TBA | TBA | TBA |
+| Session 13 - Computer Vision| TBA| TBA | TBA | TBA| TBA | TBA |
+| Session 14 (Part 1) - Natural Language Processing: Pretraining| TBA| TBA | TBA | TBA| TBA | TBA |
+| Session 14 (Part 2) - Project Announcement| TBA | TBA | TBA | TBA | TBA | TBA |
+| Session 15 - Natural Language Processing: Applications| TBA| TBA | TBA | TBA | TBA | TBA |
+| Session 16 - Generative Adversarial Networks| TBA| TBA | TBA| TBA | TBA | TBA |
+| Session 17 - Recommender Systems| TBA| TBA | TBA| TBA | TBA | TBA |
+| Session 18 - Final Projects Presentation | TBA| TBA | TBA| TBA | TBA | TBA |
 
 
 
@@ -57,7 +57,7 @@ If you are interested to deliver chapters from the book, help as a TA, or delive
 ### Frequently Asked Questions
 **Q: How do I register to be considered for the certificate of completion?**
 
-**A:** You will need to join our [Slack group](https://join.slack.com/t/dairai/shared_invite/zt-dv2dwzj7-F9HT047jIGkunNKv88lQ~g) and then enroll officially to be consided for the certificate of completion by adding your name to the spreadsheet shared in the #d2l-study-group channel. Look for the pinned message in the channel.
+**A:** You will need to join our Slack group and then enroll officially to be consided for the certificate of completion by adding your name to the spreadsheet shared in the #d2l-study-group channel. Look for the pinned message in the channel.
 
 ---
 **Q: How do I qualify for the certificate of completion?**
