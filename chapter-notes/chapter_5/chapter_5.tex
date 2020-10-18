@@ -30,6 +30,13 @@
     \item Pytorch provides serialisation through state dict and torch.save and torch.load
 \end{itemize}
 
+\section{GPU}
+\begin{itemize}
+    \item In PyTorch, every array has a device, we often refer it as a context.
+    \item Objects need to be on the same device to interact e.g. multiply/add
+    \item Copying between devices is easy but slow so watch out
+\end{itemize}
+
 \vfill
 \bibliography{../References}
 \nocite{zhang2020dive}
