@@ -25,7 +25,7 @@
 \begin{itemize}
     \item Convolutional Neural Networks
     \item Translation invariance in images implies that all patches of an image will be treated in the same manner.
-    \item Locality means that only a small neighborhood of pixels will be used to compute the corresponding hidden representations.
+    \item Locality means that only a small neighbourhood of pixels will be used to compute the corresponding hidden representations.
     \item In image processing, convolutional layers typically require many fewer parameters than fully-connected layers.
     \item The core computation of a two-dimensional convolutional layer is a two-dimensional cross-correlation operation. In its simplest form, this performs a cross-correlation operation on the two-dimensional input data and the kernel, and then adds a bias.
 \end{itemize}
@@ -35,6 +35,23 @@
     \item Padding can increase the height and width of the output. This is often used to give the output the same height and width as the input.
     \item The stride can reduce the resolution of the output, for example reducing the height and width of the output to only 1/n  of the height and width of the input ( n is an integer greater than  1 ).
 \end{itemize}
+
+\section{Multiple Input and Multiple Output Channels}
+\begin{itemize}
+    \item Multiple channels can be used to extend the model parameters of the convolutional layer.
+    \item The  1x1  convolutional layer is equivalent to the fully-connected layer, when applied on a per pixel basis.
+    \item The  1x1  convolutional layer is typically used to adjust the number of channels between network layers and to control model complexity.
+\end{itemize}
+
+\section{Pooling}
+\begin{itemize}
+    \item Taking the input elements in the pooling window, the maximum pooling operation assigns the maximum value as the output and the average pooling operation assigns the average value as the output.
+    \item Padding and Stride - Similar to convolutions
+    \item The pooling layer’s number of output channels is the same as the number of input channels.
+\end{itemize}
+
+
+
 \vfill
 \bibliography{../References}
 \nocite{zhang2020dive}
