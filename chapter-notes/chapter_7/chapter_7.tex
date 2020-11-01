@@ -43,7 +43,8 @@
 
 \section{ Networks with Parallel Concatenations (GoogLeNet) - 2015 }
 \begin{itemize}
-  \item 
+  \item The Inception block is equivalent to a subnetwork with four paths. It extracts information in parallel through convolutional layers of different window shapes and maximum pooling layers.  1×1  convolutions reduce channel dimensionality on a per-pixel level. Maximum pooling reduces the resolution.
+  \item GoogLeNet connects multiple well-designed Inception blocks with other layers in series. The ratio of the number of channels assigned in the Inception block is obtained through a large number of experiments on the ImageNet dataset.
 \end{itemize}
 
 
