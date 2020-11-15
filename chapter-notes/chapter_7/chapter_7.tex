@@ -55,6 +55,20 @@
   \item Batch normalization has many beneficial side effects, primarily that of regularization. On the other hand, the original motivation of reducing internal covariate shift seems not to be a valid explanation
 \end{itemize}
 
+\section{ResNet}
+\begin{itemize}
+  \item Nested function classes are desirable. Learning an additional layer in deep neural networks as an identity function (though this is an extreme case) should be made easy.
+  \item The residual mapping can learn the identity function more easily, such as pushing parameters in the weight layer to zero.
+  \item We can train an effective deep neural network by having residual blocks. Inputs can forward propagate faster through the residual connections across layers.
+\end{itemize}
+
+\section{DenseNet}
+\begin{itemize}
+  \item In terms of cross-layer connections, unlike ResNet, where inputs and outputs are added together, DenseNet concatenates inputs and outputs on the channel dimension.
+  \item The main components that compose DenseNet are dense blocks and transition layers.
+  \item We need to keep the dimensionality under control when composing the network by adding transition layers that shrink the number of channels again.
+\end{itemize}
+
 \vfill
 \bibliography{../References}
 \nocite{zhang2020dive}
