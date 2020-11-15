@@ -11,3 +11,5 @@ If you have any further questions about the assignment please reach out via Slac
 **Submission Instructions:**
 - Submit a link to a PDF report that contains the solution to the first part of the assignment. In that same report, provide a Google Colab link to the second part of the assignment. Use this [form](https://forms.gle/uNiauair61YCkBFHA) to submit the link to the PDF report. Make sure to include **3** for "Assignment #".
 - The deadline for this assignment is **September 26, 2020**. 
+
+My answer: https://docs.google.com/presentation/d/1SvJi3DKR0C7vUCIvgF6Ax8rtNePigBI3yjFyH9TM7Lc
